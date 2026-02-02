@@ -5,7 +5,7 @@ export interface IContact extends Document {
   email: string;
   phone: string;
   tags: string[];
-  userId: string; // Ownership
+  userId: string; 
 }
 
 const ContactSchema = new Schema({
