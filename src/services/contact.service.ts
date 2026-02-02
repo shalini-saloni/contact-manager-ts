@@ -1,5 +1,5 @@
 import contactModel, { IContact } from '../models/contact.model';
-import { HttpException } from '../utils/error.ts';
+import { HttpException } from '../utils/error';
 
 class ContactService {
   private contact = contactModel;
